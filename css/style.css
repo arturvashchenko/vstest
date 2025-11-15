@@ -1,0 +1,55 @@
+:root {
+--color-brand: #011C44;
+--color-accent: #2B7FFF;
+--color-background: #F5F7FF;
+}
+
+/* Base */
+body {
+    color: var(--color-brand);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* button section */
+.button {
+    background-color: var(--color-accent);
+    border: 2px solid var(--color-accent);
+    color: var(--color-background);
+    border-radius: 32px;
+    width: 219px;
+    height: 53px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: transparent;
+    /* transparent - прозорий колір */
+    color: var(--color-brand);
+}
+
+.button:focus {
+    background-color: transparent;
+    color: var(--color-brand);
+}
+
+/* header-link section */
+.header-link {
+    color: var(--color-brand);
+}
+
+.header-link:hover {
+    color: var(--color-accent);
+}
+
+/* hero-title section */
+.hero-title {
+    color: var(--color-accent);
+}
+
+/* section-title section */
+.section-title .accent {
+    color: var(--color-accent);
+}
