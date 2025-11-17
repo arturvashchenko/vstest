@@ -1,7 +1,10 @@
 :root {
 --color-brand: #011C44;
 --color-accent: #2B7FFF;
---color-background: #F5F7FF;
+--color-background: #FFFFFF;
+--color-secondary: #4A4A4A;
+--color-third: #747272;
+--color-black: #000000;
 }
 
 /* Base */
@@ -49,7 +52,24 @@ ul {
     color: var(--color-accent);
 }
 
+.under-button {
+    color: var(--color-secondary);
+}
+
 /* section-title section */
 .section-title .accent {
     color: var(--color-accent);
+}
+
+.text-section {
+    color: var(--color-black);
+}
+
+/* footer section */
+.basement-section {
+    color: var(--color-background);
+}
+
+.end-title {
+    color: var(--color-third);
 }
