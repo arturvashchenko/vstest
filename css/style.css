@@ -5,15 +5,27 @@
 --color-secondary: #4A4A4A;
 --color-third: #747272;
 --color-black: #000000;
+--font-family: "Roboto", sans-serif;
+--second-family: "Play", sans-serif;
 }
 
 /* Base */
 body {
     color: var(--color-brand);
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 400;
 }
 
 ul {
     list-style-type: none;
+}
+
+/* headlines-text */
+.section-title {
+    font-family: var(--second-family);
+    font-size: 64px;
+    font-weight: 700;
 }
 
 /* button section */
@@ -25,6 +37,8 @@ ul {
     width: 219px;
     height: 53px;
     cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .button:hover {
@@ -41,19 +55,55 @@ ul {
 /* header-link section */
 .header-link {
     color: var(--color-brand);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .header-link:hover {
     color: var(--color-accent);
+    font-weight: 700;
 }
 
 /* hero-title section */
+.before-hero {
+    color: var(--color-brand);
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .hero-title {
     color: var(--color-accent);
+    font-family: var(--second-family);
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 81%;
 }
 
 .under-button {
     color: var(--color-secondary);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+/* perevtilennya section */
+.accent-brand {
+    color: var(--color-accent);
+    text-transform: capitalize;
+}
+
+.perevtilennya-text {
+    color: var(--color-brand);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 173%;
+}
+
+.perevtilennya-text span {
+    text-transform: capitalize;
+    font-weight: 600;
 }
 
 /* section-title section */
@@ -63,11 +113,13 @@ ul {
 
 .text-section {
     color: var(--color-black);
+    font-family: 'Roboto', sans-serif;
 }
 
 /* footer section */
 .basement-section {
     color: var(--color-background);
+    text-decoration: none;
 }
 
 .end-title {
