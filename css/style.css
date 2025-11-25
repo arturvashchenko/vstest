@@ -118,7 +118,8 @@ ul {
 
 /* footer section */
 .basement-section {
-    color: var(--color-background);
+    color: var(--color-third);
+    /* змінити колір на білий */
     text-decoration: none;
 }
 
